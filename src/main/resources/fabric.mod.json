@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "ciroxz",
+  "version": "${version}",
+  "name": "ciroxz v1",
+  "description": "Ghost Client for 1.20.1",
+  "authors": ["Ciro"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.ciroxz.client.CiroxzClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "fabric": "*"
+  }
+}
